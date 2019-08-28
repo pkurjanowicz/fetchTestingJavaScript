@@ -21,7 +21,7 @@ fetch(url)
 .then(function(data) {
     let authors = data.results; //authors is that json response.results, which is the name of the array
     //can you tell me exactly what .map() is doing here?
-    return authors.map(function(author) {
+    return authors.forEach(function(author) {
         let li = createNode('li'),
             img = createNode('img'),
             p = createNode('p');

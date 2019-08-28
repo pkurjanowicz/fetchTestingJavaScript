@@ -64,4 +64,3 @@ fetch('https://api.eflow.team/v1/networks/reporting/entity', {
         console.log(data)
     });
 
-

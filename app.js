@@ -5,7 +5,7 @@ fetch('https://api.eflow.team/v1/networks/offers', {
     method: 'get',
     headers: {
         'Content-Type': 'application/json',
-        'x-eflow-api-key': 'apiKey',
+        'x-eflow-api-key': apiKey,
     }
 })
     .then(response => response.json())
@@ -54,7 +54,7 @@ fetch('https://api.eflow.team/v1/networks/reporting/entity', {
     method: 'post',
     headers: {
         'Content-Type': 'application/json',
-        'x-eflow-api-key': 'apiKey',
+        'x-eflow-api-key': apiKey,
     },
     body: JSON.stringify(content)
 })

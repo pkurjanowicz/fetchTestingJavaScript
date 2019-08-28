@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(225, 225, 225);
+    font-family: "Arial Black", sans-serif;
+}
+
+#authors {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#authors li {
+    padding: 20px;
+    margin: 15px;
+    list-style-type: none;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+#authors img {
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
